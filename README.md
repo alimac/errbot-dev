@@ -3,8 +3,17 @@
 
 ## Requirements and recommendations
 
-- Vagrant
-- VirtualBox
+Download and install:
+
+- [Vagrant](https://www.vagrantup.com/downloads.html)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+For keeping VirtualBox Guest Additions in sync, I recommend installing the
+`vagrant-vbguest` plugin:
+
+```
+vagrant plugin install vagrant-vbguest
+```
 
 ## Usage
 
