@@ -40,10 +40,10 @@ vagrant ssh
 cd /vagrant
 ```
 
-Here you should see a configuration file for Errbot (`config.py`) and a
-directory called `err-data/`, where Err will store its plugin data and logs.
-There is also `err-plugins/` directory, where you can put plugin directories
-of the plugins you are developing.
+Here you should see:
+- configuration file for Errbot (`config.py`)
+- directory called `err-data/` where Err will store its plugin data and logs
+- `err-plugins/` directory where you can develop plugins
 
 You can update the configuration to use a particular backend, or run Errbot in
 text mode:
