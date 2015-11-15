@@ -56,3 +56,15 @@ the configuration file:
 ```
 errbot -T -c /vagrant/config.py
 ```
+
+## Errbot configuration
+
+This project ships with very minimal configuration setup for Errbot.
+These are the variables that it sets:
+
+```
+BOT_DATA_DIR = '/vagrant/err-data'
+BOT_EXTRA_PLUGIN_DIR = '/vagrant'
+BOT_LOG_FILE = '/vagrant/err-data/err.log'
+BOT_LOG_LEVEL = logging.DEBUG
+```
