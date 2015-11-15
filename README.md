@@ -42,8 +42,10 @@ cd /vagrant
 
 Here you should see a configuration file for Errbot (`config.py`) and a
 directory called `err-data/`, where Err will store its plugin data and logs.
+There is also `err-plugins/` directory, where you can put plugin directories
+of the plugins you are developing.
 
-You can update the configuration to use a particular backed, or run Errbot in
+You can update the configuration to use a particular backend, or run Errbot in
 text mode:
 
 ```
@@ -64,7 +66,7 @@ These are the variables that it sets:
 
 ```
 BOT_DATA_DIR = '/vagrant/err-data'
-BOT_EXTRA_PLUGIN_DIR = '/vagrant'
+BOT_EXTRA_PLUGIN_DIR = '/vagrant/err-plugins'
 BOT_LOG_FILE = '/vagrant/err-data/err.log'
 BOT_LOG_LEVEL = logging.DEBUG
 ```

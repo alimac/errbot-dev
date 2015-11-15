@@ -55,7 +55,7 @@ BOT_DATA_DIR = '/vagrant/err-data'
 # locally before publishing it. Note that you can specify only a single
 # directory, however you are free to create subdirectories with multiple
 # plugins inside this directory.
-BOT_EXTRA_PLUGIN_DIR = '/vagrant' 
+BOT_EXTRA_PLUGIN_DIR = '/vagrant/err-plugins'
 
 # If you use an external backend as a plugin,
 # this is where you tell err where to find it.

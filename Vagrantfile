@@ -16,5 +16,6 @@ Vagrant.configure(2) do |config|
       sudo pip -q install --upgrade six
       sudo pip -q install --upgrade sleekxmpp
       mkdir -p /vagrant/err-data
+      mkdir -p /vagrant/err-plugins
     SHELL
 end

@@ -1,5 +1,6 @@
 .vagrant/
 *.pyc
 err-data/
+err-plugins/
 
 
