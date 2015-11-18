@@ -15,6 +15,8 @@ Vagrant.configure(2) do |config|
       sudo pip -q install err
       sudo pip -q install --upgrade six
       sudo pip -q install --upgrade sleekxmpp
+      sudo pip -q install coverage
+      sudo pip -q install pytest-pep8
       mkdir -p /vagrant/err-data
       mkdir -p /vagrant/err-plugins
     SHELL

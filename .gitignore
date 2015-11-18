@@ -1,3 +1,5 @@
+.cache/
+.coverage
 .vagrant/
 *.pyc
 err-data/
