@@ -5,8 +5,9 @@ building [Errbot](http://errbot.io) plugins. It installs Errbot for you, and
 provides a lighweight configuration so that you can start developing right
 away.
 
-It was developed as part of my _Adventures with Errbot_ blog series on
-[alimac.io](http://alimac.io/writes/adventures-with-errbot-part-1).
+It was developed as a companion project of my
+[Adventures with Errbot](http://alimac.io/writes/adventures-with-errbot-part-3)
+blog series on [alimac.io](http://alimac.io).
 
 ## Requirements and recommendations
 
